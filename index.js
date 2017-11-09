@@ -13,6 +13,6 @@ function destructivelyRemoveFirstDriver(name){
   drivers.shift(name);
 }
 function appendDriver(name){
-  drivers.unshift(name);
-  return drivers;
+  newarray=drivers.unshift(name);
+  return newarray;
 }
