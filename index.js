@@ -22,3 +22,4 @@ function prependDriver(name){
   copyDrivers2.unshift(name);
   return copyDrivers2;
 }
+function removeLastDriver()
